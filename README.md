@@ -2,22 +2,10 @@
 ### Описание:
 Мобильное приложение, включающее в себя клиент ВКонтакте, архив статей с филиалов SCP Foundation, игровой движок для более интересной ролёвки и чаты с полностью конфигурируемыми ботами.
 ### Нужные утилиты:
-1.) Sketchware (https://play.google.com/store/apps/details?id=com.besome.sketch)<br>
-2.) ShareSketch (https://play.google.com/store/apps/details?id=com.eastesh.sharesketch)<br>
-3.) ES Проводник или аналогичный файловый менеджер
-### Импорт Проекта в Sketchware:
-1.) Скачайте папку `WLCB_Client-Sharesketch` с ветки той версии, которую собираетесь изменять<br>
-2.) Распакуйте эту папку в `/storage/emulated/0/ShareSketch/export/` <br>
-3.) Создайте новый пустой проект в Sketchware (настройки не важны) и скомпилируйте его (нажмите кнопку установить, но при этом само приложение устанавливать необязательно)<br>
-4.) Откройте ShareSketch и выберите `Import Project`. Разрешите доступ к хранилищу <br>
-5.) Выберите `WLCB_Client-Sharesketch`<br>
-6.) Выберите пустой проект (п.3) и подтвердите перезапись<br>
-7.) Готово, заходите в Sketchware и на месте пустого проекта у вас нужная версия Клиента
-### Экспорт Проекта из Sketchware:
-1.) Сохраните изменения и скомпилируйте проект в Sketchware<br>
-2.) Откройте ShareSketch и выберите `Explore Project`<br>
-3.) Не меняйте имени приложения!<br>
-4.) После успешного экспортирования в диалоговом окне будет путь, перейдите по нему<br>
-5.) Загрузите файлы в эту репозиторию в соответствующие папки соответствующей ветки. Коммит должен называться `Обновление`, а в комментарии пожалуйста, укажите, что вы исправили.
+1.) Java Development Kit (JDK) (https://www.oracle.com/technetwork/java/javase/downloads)<br>
+2.) Android Software Development Kit (Android SDK) (https://developer.android.com/studio#downloads) (раздел Command line tools only)<br>
+3.) Блокнот или любой другой текстовый редактор
+### Как компилить?
+1.) Запустите compile.bat
 ### Где находится База Данных?
 https://console.firebase.google.com проект называется RoleChat. Если он у вас не отображается, напишите https://vk.com/vladg24yt
